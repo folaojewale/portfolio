@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56c96875.css",
+    "main.js": "/static/js/main.750024b3.js",
+    "static/media/cv.pdf": "/static/media/cv.9567f41c3b49648aec28.pdf",
+    "static/media/group_project.png": "/static/media/group_project.20bb62ee4d828539fdf1.png",
+    "static/media/crud_app.png": "/static/media/crud_app.114f3beda2738ebeaaea.png",
+    "static/media/simon_says.png": "/static/media/simon_says.5ac31938344c73456b21.png",
+    "index.html": "/index.html",
+    "main.56c96875.css.map": "/static/css/main.56c96875.css.map",
+    "main.750024b3.js.map": "/static/js/main.750024b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56c96875.css",
+    "static/js/main.750024b3.js"
+  ]
+}

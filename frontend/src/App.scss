@@ -1,0 +1,26 @@
+$primary-color: #0a2d8f;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/ball-rotate.scss';
+
+.loader-active  {
+    display:block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+    scale: 6.5;
+  }
+
+  .home{
+    will-change: contents;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }

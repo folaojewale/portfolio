@@ -1,0 +1,84 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+/* loader */
+
+/* layout */
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: #F6F1F1;
+  margin: 0;
+  font-family: "Poppins";
+  text-align: left;
+  color: #000000;
+  
+}
+
+header {
+  background: #146C94;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.pages{
+  max-width: 1000px;
+  padding: 20px;
+  position: relative;
+  left: 240px;
+}
+
+header .spacing{
+  display: flex;
+  gap: 10px;
+}
+
+header a:hover{
+  color: #FFCA03
+}
+
+footer {
+  background: #146C94;
+  margin-top: auto;
+  height: 80px;
+}
+
+.icons{
+  max-width: 200px;
+  height: 0px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  transform: scale(2.5);
+  
+}
+
+.icon{
+  color: #ffffff;
+  transition: color 0.3s;
+  &:hover{
+    color: #FFCA03; /* Change the color on hover */
+  }
+}
+
