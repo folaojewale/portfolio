@@ -17,7 +17,7 @@ const About = () => {
         <div className="home">
           <h1>About Me</h1>
           <p>
-              I'm a 3rd Year student studying Computer Science and Software Engineering at Maynooth University in Kildare. I have a strong interest in working in the Web Development field in particular.
+              I'm a 3rd Year student studying Computer Science and Software Engineering at Maynooth University in Kildare. I have a strong interest in working in the Web Development field and Object Orientated programming in particular.
               I've finished my second year and I'm looking for internships in the summer and as well as for my second semester for the year of 2024
           </p>
           <p>

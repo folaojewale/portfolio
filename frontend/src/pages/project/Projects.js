@@ -1,7 +1,8 @@
 import './index.scss';
 import simon from '../../assets/simon_says.png'
 import group_project from '../../assets/group_project.png'
-import crud from '../../assets/crud_app.png'
+import mern_app from '../../assets/mern_app.png'
+import cards from '../../assets/cards.png'
 import Loader from 'react-loaders';
 
 const Projects = () => {
@@ -19,7 +20,7 @@ const Projects = () => {
             <img src = {simon} alt='simon says'/>
             <div className='card-text'>
               <h4>Simon Game</h4>
-              <p>Skills</p>
+              {/* <p>Skills</p> */}
             </div>
           </div>
 
@@ -27,23 +28,23 @@ const Projects = () => {
             <img src = {group_project} alt='simon says'/>
             <div className='card-text'>
               <h4>Group Projects</h4>
-              <p>Skills</p>
+              {/* <p>Skills</p> */}
             </div>
           </div>
 
           <div className = 'card'>
-            <img src = {crud} alt='group project'/>
+            <img src = {mern_app} alt='group project'/>
             <div className='card-text'>
-              <h4>Group Project</h4>
-              <p>Skills</p>
+              <h4>MERN - Stack Application</h4>
+              {/* <p>Skills</p> */}
             </div>
           </div>
 
           <div className = 'card'>
-            <img src = {crud} alt='group project'/>
+            <img src = {cards} alt='group project'/>
             <div className='card-text'>
-              <h4>Group Project</h4>
-              <p>Skills</p>
+              <h4>Cards Game Simulation</h4>
+              <p></p>
             </div>
           </div>
         </div>

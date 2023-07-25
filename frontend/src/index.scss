@@ -1,9 +1,10 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
 /* loader */
 
 /* layout */
-.App{
+.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,11 +21,13 @@ body {
   font-family: "Poppins";
   text-align: left;
   color: #000000;
-  
 }
 
 header {
   background: #146C94;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 header .container {
@@ -42,43 +45,181 @@ header a {
   transition: color 0.5s;
 }
 
-.pages{
+.pages {
   max-width: 1000px;
   padding: 20px;
   position: relative;
   left: 240px;
 }
 
-header .spacing{
+header .spacing {
   display: flex;
   gap: 10px;
 }
 
-header a:hover{
-  color: #FFCA03
+header a:hover {
+  color: #FFCA03;
 }
 
 footer {
   background: #146C94;
   margin-top: auto;
   height: 80px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
-.icons{
+.icons {
   max-width: 200px;
   height: 0px;
   display: flex;
   margin: 0 auto;
   justify-content: space-evenly;
   transform: scale(2.5);
-  
 }
 
-.icon{
+.icon {
   color: #ffffff;
   transition: color 0.3s;
-  &:hover{
-    color: #FFCA03; /* Change the color on hover */
+}
+.icon:hover {
+  color: #FFCA03; /* Change the color on hover */
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+  header {
+    .spacing{
+      gap: 2px;
+    }
+    .container {
+      width: 100%;
+    }
+    a{
+      font-size: small;
+    }
+  }
+  .pages{
+    left: 2%;
+    max-width: 600px;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    a{
+      font-size: small;
+    }
+    .spacing{
+      position: relative;
+      gap: 5px;
+      right: 6%;
+    }
+    .container {
+      width: 100%;
+    }
+    max-width: 100%;
+  }
+  .pages{
+    left: 2%;
+    max-width: 600px;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
   }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+  header {
+    a {
+      width: 50%;
+      font-size: large;
+    }
+    .container {
+      width: 100%;
+    }
+    .spacing{
+      position: relative;
+      gap: 5px;
+      right: 6%;
+    }
+  }
+  .pages{
+    left: 2%;
+    max-width: 600px;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+} 
+
+/* Large devices (laptops/desktops, 991px and up) */
+@media only screen and (min-width: 991px) {
+  header {
+    a {
+      font-size: large;
+    }
+    .container {
+      width: 100%;
+    }
+    .spacing{
+      position: relative;
+      right: 6%;
+      gap: 5px;
+    }
+  }
+  .pages{
+    left: 7%;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+} 
+
+@media only screen and (min-width: 1100px) {
+  header {
+    a {
+      font-size: large;
+    }
+    .container {
+      width: 100%;
+    }
+    .spacing{
+      position: relative;
+      right: 6%;
+      gap: 10px;
+    }
+  }
+  .pages{
+    left: 2%;
+    max-width: 600px;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pages {
+    max-width: 1000px;
+    padding: 20px;
+    position: relative;
+    left: 10%;
+  }
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
